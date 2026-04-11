@@ -16,4 +16,29 @@ public class main{
       int choice = sc.nextInt();
 
       switch(choice){
-          
+          case 1: st.addStudent();
+          break;
+          case 2: st.viewStudents();
+          break;
+          case 3: st.searchStudent();
+          break;
+        case 4 : st.deleteStudent();
+          break;
+        case 5 : System.out.println("Exiting.......");
+          break;
+        default:
+          System.out.println("Invalid choice!");
+      }
+    }
+      while(choice!=5);
+  }
+}
+
+
+
+
+
+
+
+
+      
