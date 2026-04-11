@@ -5,7 +5,7 @@ public class StudentService {
   Student[] students = new Student[100];
   int count = 0;
 
-  void assStudent(){
+  void addStudent(){
     Student s = new Student();
 
     System.out.print("Enter id :");
