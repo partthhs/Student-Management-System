@@ -19,7 +19,7 @@ public class StudentService {
     s.age = sc.nextInt();
     sc.nextLine();
 
-    System.out.print("Enter Course = "+course);
+    System.out.print("Enter Course = ");
     s.course = sc.nextLine();
 
     students[count]= s;
