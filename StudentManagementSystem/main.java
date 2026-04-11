@@ -4,7 +4,7 @@ public class main{
   Scanner sc = new Scanner(System.in);
 
     StudentService st = new StudentService();
-
+int choice;
     do{
       System.out.println("----====STUDENT MANAGEMENT SYSTEM====----");
       System.out.println("1> Add Student");
@@ -13,7 +13,7 @@ public class main{
       System.out.println("4> Delete Student");
       System.out.println("5> EXIT");
       System.out.print("Enter choice = ");
-      int choice = sc.nextInt();
+       choice = sc.nextInt();
 
       switch(choice){
           case 1: st.addStudent();
