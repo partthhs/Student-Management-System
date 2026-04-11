@@ -13,7 +13,7 @@ public class StudentService {
     sc.nextLine();
     
     System.out.print("Enter Name :");
-    s.name = sc,nextLine();
+    s.name = sc.nextLine();
 
     System.out.print("Enter age = ");
     s.age = sc.nextInt();
