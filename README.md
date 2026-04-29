@@ -23,6 +23,10 @@ It allows users to manage student records easily.
  <img width="529" height="968" alt="Screenshot 2026-04-20 010916" src="https://github.com/user-attachments/assets/dd2f1ef8-efcd-47b5-94c1-534556fc6a8e" />
 
 
+FUTURE UPDATES - <br>
+To make it gui based.
+
+
 
 ---
 
